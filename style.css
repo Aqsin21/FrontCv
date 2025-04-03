@@ -1,0 +1,98 @@
+
+.backgr{
+    width: 800px; /* Kağıdın genişliği */
+    margin: 50px auto; /* Ortalamak için */
+    background-color: white; /* Kağıt rengi */
+    padding: 20px; /* İçerik boşluğu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    border-radius: 8px; /* Köşeleri yuvarlama */
+}
+
+.container-Name{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Contact-info{
+    text-align: center;
+    color: #7f8c8d;
+   
+}
+
+
+
+
+
+a{
+    margin-right: 30px;
+}
+
+img{
+    border-radius: 20px;
+    border: 1px solid #2c3e50; 
+    scale: 1.5;
+}
+hr {
+border: none;
+border-top: 1px solid #ddd; 
+margin: 10px 0; 
+opacity: 0.6; 
+}
+
+ul{
+    list-style-type: circle ;
+    
+    
+}
+ul li::marker{
+    color: cyan;
+}
+h1{
+    color: #2c3e50;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    color: #34495e;
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    color: #34495e;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Boxes{
+    display: grid
+;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+.box1{
+    width: 130px; 
+    margin-bottom: 0.5rem; 
+    background-color: #f8f9fa; 
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    
+}
+
+
+.box2{
+    width: 130px; 
+    margin-bottom: 0.5rem; 
+    background-color: #f8f9fa; 
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
+
+.box3{
+    width: 130px; 
+    margin-bottom: 0.5rem; 
+    background-color: #f8f9fa; 
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
